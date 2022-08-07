@@ -7,7 +7,7 @@ from datetime import datetime
 import inspect
 from models import review
 from models.base_model import BaseModel
-import pep8
+import pep8 as pycodestyle
 import unittest
 Review = review.Review
 
